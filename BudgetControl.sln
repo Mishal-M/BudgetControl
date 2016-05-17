@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BudgetControlService.Shared", "BudgetControlService.Shared\BudgetControlService.Shared.shproj", "{2F2E74B9-DB36-4F02-B333-0D3BAF136D53}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BudgetControl.App", "BudgetControl.App\BudgetControl.App.shproj", "{C9384EB1-9645-4667-9ADB-B4ADA190EF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetControl.App.iOS", "iOS\BudgetControl.App.iOS.csproj", "{491D6F95-B0F1-4CC2-BD7F-314956280E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetControlService.Test", "BudgetControlService.Test\BudgetControlService.Test.csproj", "{339942AC-AA1B-4C84-AE37-644F75C6BF7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|iPhone.Build.0 = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{339942AC-AA1B-4C84-AE37-644F75C6BF7E}.Release|x86.Build.0 = Release|Any CPU
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Ad-Hoc|iPhone.ActiveCfg = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Ad-Hoc|iPhone.Build.0 = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.AppStore|iPhone.ActiveCfg = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.AppStore|iPhone.Build.0 = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|iPhone.Build.0 = Debug|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|x86.ActiveCfg = Debug|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Debug|x86.Build.0 = Debug|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|iPhone.ActiveCfg = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|iPhone.Build.0 = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|x86.ActiveCfg = Release|iPhone
+		{491D6F95-B0F1-4CC2-BD7F-314956280E07}.Release|x86.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		$1.inheritsSet = Mono
+		$0.DotNetNamingPolicy = $2
+		$2.DirectoryNamespaceAssociation = None
+		$2.ResourceNamePolicy = FileFormatDefault
+		StartupItem = BudgetControl\BudgetControlTestClient.csproj
+	EndGlobalSection
+EndGlobal
